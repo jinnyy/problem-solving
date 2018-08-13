@@ -1,6 +1,6 @@
 package dp;
 /*
- * 2XN Ÿ�ϸ� 2
+ * 2XN 타일링 2
  * https://www.acmicpc.net/problem/11727
  */
 import java.util.Scanner;
