@@ -1,6 +1,6 @@
 package dp;
 /*
- * �ؾ �Ǹ�
+ * 붕어빵 판매하기
  * https://www.acmicpc.net/problem/11052
  */
 
