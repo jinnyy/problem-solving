@@ -1,6 +1,6 @@
 package dp;
 /*
- * Æ÷µµÁÖ ½Ã½Ä
+ * í¬ë„ì£¼ ì‹œì‹
  * https://www.acmicpc.net/problem/2156
  */
 import java.util.Scanner;
