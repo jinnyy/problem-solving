@@ -24,11 +24,11 @@ public class LongestIncreasing {
 		for(int i=1; i<=N; i++) {
 			int min = 0;
 			for(int j=0; j<i; j++) {
-	            if (Arr[i]>Arr[j])
-	            	min = Math.max(min, Dp[j]);
+				if (Arr[i]>Arr[j])
+					min = Math.max(min, Dp[j]);
 			}
-	        Dp[i] = min + 1;
-	        max = Math.max(max, Dp[i]);
+	       		Dp[i] = min + 1;
+	        	max = Math.max(max, Dp[i]);
 		}
 		System.out.println(max);
 	}
