@@ -6,30 +6,30 @@ package dp;
 import java.util.Scanner;
 
 
-public class LargestIncreasing {
+public class LongestIncreasing {
+	static int N, Arr[], Dp[];
+	
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		int N = sc.nextInt();
-		int[] A = new int[N];
-		for(int i=0; i<N; i++)
-			A[i] = sc.nextInt();
-		int[] dp = new int[N];
-		int totMax = 0;
+		Dp = new int[10001];
+		int max = 0;
 		
-		// calculation
-		for(int i=0; i<N; i++) {
-			int loopMax = 0;
-			for (int j = 0; j < i; j++){
-	            if (A[i]>A[j]){
-	                if (loopMax < dp[j])
-	                	loopMax = dp[j];
-	            }
-	        }
-	        dp[i] = loopMax + A[i];
-	        if (totMax < dp[i])
-	            totMax = dp[i];
+		Scanner reader = new Scanner(System.in);
+		N = reader.nextInt();
+		Arr = new int[N+1];
+		for(int i=1; i<=N; i++)
+			Arr[i]=reader.nextInt();
+		reader.close();
+		
+		// 계산
+		for(int i=1; i<=N; i++) {
+			int min = 0;
+			for(int j=0; j<i; j++) {
+	            if (Arr[i]>Arr[j])
+	            	min = Math.max(min, Dp[j]);
+			}
+	        Dp[i] = min + 1;
+	        max = Math.max(max, Dp[i]);
 		}
-		System.out.println(totMax);
+		System.out.println(max);
 	}
-
 }
