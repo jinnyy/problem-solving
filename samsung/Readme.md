@@ -12,7 +12,15 @@
     <th>파일이름</th> 
   </tr>
   <tr>
-    <td>특이한 자석</td>
-    <td>Magnetic.java</td> 
+    <td>
+      <a href="https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeV9sKkcoDFAVH&">
+        특이한 자석
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/jinnyy/Algorithm/blob/master/samsung/Magnetic.java">
+        Magnetic.java
+      </a>
+    </td> 
   </tr>
 </table>
