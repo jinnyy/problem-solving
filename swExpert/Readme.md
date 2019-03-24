@@ -18,7 +18,7 @@
       </a>
     </td>
     <td>
-      <a href="https://github.com/jinnyy/Algorithm/blob/master/samsung/Magnetic.java">
+      <a href="https://github.com/jinnyy/Algorithm/blob/master/swExpert/Magnetic.java">
         Magnetic.java
       </a>
     </td> 
