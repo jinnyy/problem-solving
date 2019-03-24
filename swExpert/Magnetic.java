@@ -1,4 +1,4 @@
-package samsung;
+package swExert;
 /*
  * 특이한 자석
  * https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeV9sKkcoDFAVH&
