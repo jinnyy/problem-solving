@@ -35,7 +35,7 @@ public class Tomato {
 		reader.close();
 		
 		
-		// 1인 칸에서부터 시작해서 bfs
+		// 내용이 1인 칸에서부터 시작해서 bfs
 		count = 0;
 		
 		while(!Q.isEmpty()) {
@@ -62,7 +62,8 @@ public class Tomato {
 				}
 			}
 		}
-		System.out.println(count==0? 0 : count-1);
+		if(count==0) System.out.println(0);
+		else System.out.println(count-1);
 	}
 }
 
