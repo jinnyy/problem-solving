@@ -69,6 +69,18 @@
       </a>
     </td> 
   </tr>
+  <tr>
+    <td>
+      <a href="https://www.acmicpc.net/problem/7562">
+        나이트의 이동
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/jinnyy/Algorithm/blob/master/dfs_bfs/Knight.java">
+        Knight.java
+      </a>
+    </td>
+  </tr>
 </table>
 
 <br>
