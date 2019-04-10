@@ -8,7 +8,6 @@ import java.util.Scanner;
 
 public class Sticker {
 	
-
 	public static void main(String[] args) {
 		int T, n, stickers[][], Dp[][];
 		
@@ -37,6 +36,5 @@ public class Sticker {
 			System.out.println(Math.max(Dp[0][n-1], Dp[1][n-1]));
 		}
 		sc.close();
-		
 	}
 }
