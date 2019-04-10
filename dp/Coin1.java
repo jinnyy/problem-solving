@@ -25,9 +25,9 @@ public class Coin1 {
 		// i번째 동전까지 사용
 		for (int i=0; i<n; i++) {
 			// j라는 숫자를 만듦
-		    for (int j=1; j<=k; j++) {
-		        if (j >= coins[i]) {
-		            Dp[j] += Dp[j-coins[i]];
+			for (int j=1; j<=k; j++) {
+		        	if (j >= coins[i]) {
+		        		Dp[j] += Dp[j-coins[i]];
 		        }
 		    }
 		}
