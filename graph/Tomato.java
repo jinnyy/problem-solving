@@ -1,4 +1,4 @@
-package dfs_bfs;
+package graph;
 /*
  * [백준] 토마토
  * https://www.acmicpc.net/problem/7576
