@@ -1,4 +1,4 @@
-package dfs_bfs;
+package graph;
 /*
  * [백준] 안전 영역
  * https://www.acmicpc.net/problem/2468
