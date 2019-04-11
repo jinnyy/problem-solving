@@ -1,4 +1,4 @@
-package dfs_bfs;
+package graph;
 /*
  * [백준] 연결요소의 개수
  * https://www.acmicpc.net/problem/11724
