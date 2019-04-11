@@ -1,4 +1,4 @@
-# DFS & BFS
+# Graph
 
 <br><br>
 
