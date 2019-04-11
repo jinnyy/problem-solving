@@ -1,4 +1,4 @@
-package dfs_bfs;
+package graph;
 /*
  * [백준] 숨바꼭질
  * 
