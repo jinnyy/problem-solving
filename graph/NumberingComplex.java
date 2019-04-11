@@ -1,4 +1,4 @@
-package dfs_bfs;
+package graph;
 /*
  * [백준] 단지번호붙이기
  * https://www.acmicpc.net/problem/2667
