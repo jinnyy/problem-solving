@@ -15,7 +15,7 @@
       </a>
     </td>
     <td>
-      <a href="https://github.com/jinnyy/Algorithm/blob/master/dfs_bfs/ConnectedComponents.java">
+      <a href="https://github.com/jinnyy/Algorithm/blob/master/graph/ConnectedComponents.java">
         ConnectedComponents.java
       </a>
     </td>
@@ -28,7 +28,7 @@
       </a>
     </td>
     <td>
-      <a href="https://github.com/jinnyy/Algorithm/blob/master/dfs_bfs/SafeZone.java">
+      <a href="https://github.com/jinnyy/Algorithm/blob/master/graph/SafeZone.java">
         SafeZone.java
       </a>
     </td>
@@ -40,7 +40,7 @@
       </a>
     </td>
     <td>
-      <a href="https://github.com/jinnyy/Algorithm/blob/master/dfs_bfs/NumberingComplex.java">
+      <a href="https://github.com/jinnyy/Algorithm/blob/master/graph/NumberingComplex.java">
         NumberingComplex.java
       </a>
     </td>
@@ -64,7 +64,7 @@
       </a>
     </td>
     <td>
-      <a href="https://github.com/jinnyy/Algorithm/blob/master/dfs_bfs/Tomato.java">
+      <a href="https://github.com/jinnyy/Algorithm/blob/master/graph/Tomato.java">
         Tomato.java
       </a>
     </td> 
@@ -76,7 +76,7 @@
       </a>
     </td>
     <td>
-      <a href="https://github.com/jinnyy/Algorithm/blob/master/dfs_bfs/Knight.java">
+      <a href="https://github.com/jinnyy/Algorithm/blob/master/graph/Knight.java">
         Knight.java
       </a>
     </td>
@@ -88,7 +88,7 @@
       </a>
     </td>
     <td>
-      <a href="https://github.com/jinnyy/Algorithm/blob/master/dfs_bfs/HideAndSeek.java">
+      <a href="https://github.com/jinnyy/Algorithm/blob/master/graph/HideAndSeek.java">
         HideAndSeek.java
       </a>
     </td>
