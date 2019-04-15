@@ -1,4 +1,8 @@
 package dp;
+/*
+ * [백준] 정수 삼각형
+ * https://www.acmicpc.net/problem/1932
+ */
 import java.util.Scanner;
 
 
