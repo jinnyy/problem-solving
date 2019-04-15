@@ -1,4 +1,8 @@
 package dp;
+/*
+ * [백준] 퇴사
+ * https://www.acmicpc.net/problem/14501
+ */
 import java.util.Scanner;
 
 
