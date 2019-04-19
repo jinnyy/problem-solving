@@ -45,6 +45,18 @@
       </a>
     </td>
   </tr>
+  <tr>
+    <td>
+      <a href="https://www.acmicpc.net/problem/1520">
+        내리막 길
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/jinnyy/Algorithm/blob/master/graph/Downhill.java">
+        Downhill.java
+      </a>
+    </td>
+  </tr>
 </table>
 
 <br>
