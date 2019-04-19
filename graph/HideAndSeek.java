@@ -1,7 +1,7 @@
 package graph;
 /*
  * [백준] 숨바꼭질
- * 
+ * https://www.acmicpc.net/problem/1697
  */
 import java.util.Scanner;
 import java.util.LinkedList;
