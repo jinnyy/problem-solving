@@ -1,4 +1,4 @@
-package dp;
+package graph;
 /*
  * [백준] 내리막 길
  * https://www.acmicpc.net/problem/1520 
