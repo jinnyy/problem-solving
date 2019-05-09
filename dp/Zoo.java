@@ -1,7 +1,7 @@
 package dp;
 /*
  * [백준] 동물원
- * 
+ * https://www.acmicpc.net/problem/1309
  */
 import java.util.Scanner;
 
