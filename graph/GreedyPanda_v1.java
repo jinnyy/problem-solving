@@ -1,8 +1,10 @@
-import java.util.Scanner;
+package graph;
 /*
  * [백준] 욕심쟁이 판다
- * - dfs
+ * - dfs, brute force
  */
+import java.util.Scanner;
+
 
 
 public class GreedyPanda_v1 {
