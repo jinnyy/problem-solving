@@ -19,14 +19,14 @@ public class LCS {
 		N = str[0].length();
 		M = str[1].length();
 		dp = new int[N+1][M+1];
-    // 계산 시작
+    		// 계산 시작
 		for(int i=1; i<=N; i++) {
 			for(int j=1; j<=M; j++) {
-        // 현재 위치의 문자가 서로 같다면
+        			// 현재 위치의 문자가 서로 같다면
 				if (str[0].charAt(i-1)==str[1].charAt(j-1)) {
 					dp[i][j] = dp[i-1][j-1] + 1;
 				}
-        // 서로 다르다면
+        			// 서로 다르다면
 				else {
 					dp[i][j] = Math.max(dp[i][j-1], dp[i-1][j]);
 				}
