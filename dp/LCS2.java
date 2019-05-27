@@ -20,7 +20,7 @@ public class LCS2 {
 		M = str[1].length();
 		cache = new String[N+1][M+1];
 		
-    // 계산 시작
+    		// 계산 시작
 		for(int i=1; i<=N; i++) {
 			char a, b;
 			for(int j=1; j<=M; j++) {
