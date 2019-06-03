@@ -1,3 +1,7 @@
+/*
+ * [백준] 암호 코드
+ * https://www.acmicpc.net/problem/2011
+ */
 package dp;
 import java.util.Scanner;
 
