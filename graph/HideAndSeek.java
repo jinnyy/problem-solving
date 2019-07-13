@@ -22,7 +22,6 @@ public class HideAndSeek {
 		loc = new int[MAX+1];
 		Q = new LinkedList<Integer>();
 		Q.add(N);
-		loc[N] = 1;
 		int cur;
 		while(!Q.isEmpty()) {
 			cur = Q.poll();
@@ -40,7 +39,7 @@ public class HideAndSeek {
 				loc[cur*2] = loc[cur]+1;
 			}
 		}
-		System.out.println(loc[K]-1);
+		System.out.println(loc[K]);
 	}
 
 }
