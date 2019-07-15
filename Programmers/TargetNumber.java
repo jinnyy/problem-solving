@@ -6,7 +6,7 @@ package Programmers;
 
 
 
-class Solution {
+class TargetNumber {
 	static int count;
     public int solution(int[] numbers, int target) {
     	count = 0;
@@ -15,11 +15,13 @@ class Solution {
     }
     
     private static void dfs(int[] numbers, int target, int depth, int curResult) {
+    	// Base condition
     	if(depth==numbers.length-1) {
     		if(curResult+numbers[depth]==target) count++;
     		if(curResult-numbers[depth]==target) count++;
     		return;
     	}
+	// 가능한 경우(+,-) depth를 1 증가시켜서 recursion
     	dfs(numbers, target, depth+1, curResult-numbers[depth]);
     	dfs(numbers, target, depth+1, curResult+numbers[depth]);
     }
