@@ -1,7 +1,7 @@
 # Algorithm
 algorithm solutions implemented in java and python language (mainly in java)
 
-이론적인 내용은 <a href="https://github.com/jinnyy/TIL/tree/master/ComputerScience/Algorithm">여기</a>에 정리하고 있습니다.
+이론적인 내용은 <a href="https://github.com/jinnyy/TIL/tree/master/ComputerScience/Algorithm">`여기`</a>에 정리하고 있습니다.
 
 <br><br>
 
