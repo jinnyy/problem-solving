@@ -10,7 +10,6 @@ import java.util.LinkedList;
 public class Tomato {
 	static int M, N, graph[][], count;
 	static LinkedList<Point> Q;
-	static boolean visited[][];
 	static final int[] dX = {0, 0, 1, -1};
 	static final int[] dY = {1, -1, 0, 0};
 	
@@ -20,16 +19,13 @@ public class Tomato {
 		M = reader.nextInt();
 		N = reader.nextInt();
 		graph = new int[N][M];
-		visited = new boolean[N][M];
 		Q = new LinkedList<Point>();
 
 		for(int i=0; i<N; i++) {
 			for(int j=0; j<M; j++) {
 				graph[i][j] = reader.nextInt();
-				if (graph[i][j]==1) {
-					visited[i][j] = true;
+				if (graph[i][j]==1)
 					Q.add(new Point(j, i));
-				}
 			}
 		}
 		reader.close();
@@ -46,8 +42,7 @@ public class Tomato {
 				x = point.x + dX[i];
 				y = point.y + dY[i];
 				
-				if(x>=0 && x<M && y>=0 && y<N && !visited[y][x] && graph[y][x]==0) {
-					visited[y][x] = true;
+				if(x>=0 && x<M && y>=0 && y<N && graph[y][x]==0) {
 					graph[y][x] = graph[point.y][point.x] + 1;
 					count = Math.max(graph[y][x], count);
 					Q.add(new Point(x, y));
