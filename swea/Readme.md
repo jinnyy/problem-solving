@@ -18,9 +18,69 @@
       </a>
     </td>
     <td>
-      <a href="https://github.com/jinnyy/Algorithm/blob/master/swExpert/Magnetic.java">
+      <a href="https://github.com/jinnyy/Algorithm/blob/master/swea/Magnetic.java">
         Magnetic.java
       </a>
     </td> 
+  </tr>
+  <tr>
+    <td>
+      <a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V61LqAf8DFAWu">
+        홈 방범 서비스
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/jinnyy/Algorithm/blob/master/swea/HomeSecurityService.java">
+        HomeSecurityService.java
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V1SYKAaUDFAWu">
+        보호 필름
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/jinnyy/Algorithm/blob/master/swea/ProtectiveFilm.java">
+        ProtectiveFilm.java
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5VwAr6APYDFAWu">
+        디저트 카페
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/jinnyy/Algorithm/blob/master/swea/Dessert.java">
+        Dessert.java
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpLlKAQ4DFAUq">
+        탈주범 검거
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/jinnyy/Algorithm/blob/master/swea/Arrest.java">
+        Arrest.java
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PoOKKAPIDFAUq">
+        등산로 조성
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/jinnyy/Algorithm/blob/master/swea/Trail.java">
+        Trail.java
+      </a>
+    </td>
   </tr>
 </table>
