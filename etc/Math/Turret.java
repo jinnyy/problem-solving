@@ -6,6 +6,8 @@ package etc;
 import java.util.Scanner;
 
 
+// 원끼리 접점이 몇 개인지 구하는 문제이다.
+// 내접, 외접, 일치 등의 경우가 있고, 그 외의 경우는 거리를 이용해 구할 수 있다.
 public class Turret {
 
 	public static void main(String[] args) {
