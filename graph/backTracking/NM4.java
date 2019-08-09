@@ -1,5 +1,6 @@
 /*
  * [백준][15652번] N과 M (4)
+ * 16180KB 100ms
  */
 package backTracking;
 import java.io.BufferedReader;
