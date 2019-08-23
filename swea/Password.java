@@ -62,6 +62,10 @@ public class Password {
 		bw.close();
 	}
 	
+	/*
+	 * convert 함수에 넣을 input String의 최대 글자 수가 7글자이고 
+	 * 각 자리당 4bit(16진수)의 공간을 사용하므로 int 자료형(32bit)으로 처리한다.
+	 */
 	private static int convert(String input) {
 		int sum = 0;
 		int digit = 1;
