@@ -15,7 +15,6 @@ public class ConnectProcessor {
 	static int N, Min[];
 	static boolean connected[][], visited[];
 	static ArrayList<Core> cores;
-	static final int UP=0, DOWN=1, LEFT=2, RIGHT=3;
 	static final int[] dy = {-1, 1, 0, 0};
 	static final int[] dx = {0, 0, -1, 1};
 
@@ -36,19 +35,18 @@ public class ConnectProcessor {
 					}
 				}
 			}
-			Min = new int[N+1];
+			Min = new int[cores.size()+1];
 			for(int i=0; i<=N; i++) {
 				Min[i] = 144;
 			}
 			
-			visited = new boolean[N];
+			visited = new boolean[cores.size()+1];
 			connect(0, 0, 0);
 			
-			int max = 0;
-			int[] MAX_cache = Min;
+			int min = 0;
 			for(int i=N; i>=0; i--) {
 				if(Min[i]!=144) {
-					max = Min[i];
+					min = Min[i];
 					break;
 				}
 			}
@@ -56,7 +54,7 @@ public class ConnectProcessor {
 			sb.append("#");
 			sb.append(test_case);
 			sb.append(" ");
-			sb.append(max);
+			sb.append(min);
 			bw.append(sb.toString());
 			bw.newLine();
 		}
@@ -147,7 +145,7 @@ class Core {
 		this.x = x;
 	}
 	
-  // for debugging
+	// for debugging
 	@Override
 	public String toString() {
 		return String.format("(%d, %d)", this.y, this.x);
