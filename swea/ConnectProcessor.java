@@ -1,6 +1,6 @@
 /*
  * [SWEA][1767] 프로세서 연결하기
- * 77,636 kb	341 ms
+ * 34,552 kb	149 ms
  */
 package swea;
 import java.io.BufferedReader;
@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 
 public class ConnectProcessor {
-	static int N, Min[];
+	static int N, Min[], MaxCnt;
 	static boolean connected[][], visited[];
 	static ArrayList<Core> cores;
 	static final int[] dy = {-1, 1, 0, 0};
@@ -36,15 +36,16 @@ public class ConnectProcessor {
 				}
 			}
 			Min = new int[cores.size()+1];
-			for(int i=0; i<=N; i++) {
+			for(int i=0; i<=cores.size(); i++) {
 				Min[i] = 144;
 			}
+			MaxCnt = 0;
 			
 			visited = new boolean[cores.size()+1];
 			connect(0, 0, 0);
 			
 			int min = 0;
-			for(int i=N; i>=0; i--) {
+			for(int i=cores.size(); i>=0; i--) {
 				if(Min[i]!=144) {
 					min = Min[i];
 					break;
@@ -64,6 +65,7 @@ public class ConnectProcessor {
 	
 	private static void connect(int depth, int cnt, int connectedCnt) {
 		Min[connectedCnt] = Math.min(Min[connectedCnt], cnt);
+		MaxCnt = Math.max(MaxCnt, connectedCnt);
 		if(depth>=cores.size()) {
 			return;
 		}
@@ -73,8 +75,9 @@ public class ConnectProcessor {
 		if(cur.y==0 || cur.x==0 || cur.y==N-1 || cur.x==N-1) {
 			connect(depth+1, cnt, connectedCnt+1);
 		}
-		// 가장자리가 아니면 - 가능한 방향들 연결
-		else {
+		// 가장자리가 아니면 가능한 방향들 연결
+		// cf. 최적화 - 지금 탐색할 수 있는 core의 수가 이때까지 연결가능했던 최대 core 수보다 작다면 탐색하지 않는다
+		else if(cores.size() - depth + connectedCnt >= MaxCnt) {
 			// 1) connected 캐싱
 			int rowIdx = cur.y;
 			int colIdx = cur.x;
@@ -143,11 +146,5 @@ class Core {
 	Core(int y, int x) {
 		this.y = y;
 		this.x = x;
-	}
-	
-	// for debugging
-	@Override
-	public String toString() {
-		return String.format("(%d, %d)", this.y, this.x);
 	}
 }
