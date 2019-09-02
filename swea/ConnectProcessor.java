@@ -1,6 +1,6 @@
 /*
  * [SWEA][1767] 프로세서 연결하기
- * 77,636 kb	310 ms
+ * 77,636 kb	341 ms
  */
 package swea;
 import java.io.BufferedReader;
@@ -73,7 +73,7 @@ public class ConnectProcessor {
 		if(cur.y==0 || cur.x==0 || cur.y==N-1 || cur.x==N-1) {
 			connect(depth+1, cnt, connectedCnt+1);
 		}
-		// 가장자리가 아니면 가능한 방향들 연결해봄
+		// 가장자리가 아니면 - 가능한 방향들 연결
 		else {
 			// 1) connected 캐싱
 			int rowIdx = cur.y;
@@ -91,7 +91,7 @@ public class ConnectProcessor {
 			// 3-2) 연결하는 경우
 			for(int dir=0; dir<4; dir++) {
 				if(dirs[dir]) {
-					// connect 표시하고
+					// connected 표시
 					int idx = 1;
 					while(true) {
 						int y = cur.y + idx * dy[dir];
