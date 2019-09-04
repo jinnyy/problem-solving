@@ -1,8 +1,8 @@
 /*
- * [프로그래머스][DFS/BFS] 단어 변환
+ * [프로그래머스][dfs/bfs][level3] 단어 변환
  * https://programmers.co.kr/learn/courses/30/lessons/43163
  */
-package programmers;
+package dfs_bfs;
 import java.util.Iterator;
 import java.util.LinkedList;
 
