@@ -1,8 +1,8 @@
 /*
- * [프로그래머스] [DFS/BFS] 네트워크
+ * [프로그래머스][dfs/bfs][level3] 네트워크
  * https://programmers.co.kr/learn/courses/30/lessons/43162
  */
-package programmers;
+package dfs_bfs;
 
 
 public class Network {
