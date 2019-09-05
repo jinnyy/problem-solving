@@ -1,6 +1,6 @@
 /*
  * [백준][12100] 2048 (Easy)
- * 21772 KB	236 ms
+ * 21080 KB	236 ms
  */
 package boj_samsungswtest;
 import java.io.BufferedReader;
@@ -11,22 +11,22 @@ import java.util.StringTokenizer;
 public class Easy2048 {
 	static final int[] dy = {1, -1, 0, 0};
 	static final int[] dx = {0, 0, 1, -1};
-	static int N;
-	static long map[][], max, MAX;
+	static int N, map[][], max, MAX;
 
 	public static void main(String[] args) throws Exception {
 		// 1. read
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		N = Integer.parseInt(br.readLine());
-		map = new long[N+1][N+1];
+		map = new int[N][N];
 		for(int i=0; i<N; i++) {
 			StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 			for(int j=0; j<N; j++) {
 				map[i][j] = Integer.parseInt(st.nextToken());
+				max = Math.max(max, map[i][j]);
 			}
 		}
 		br.close();
-		MAX = 1 << 10 << N;
+		MAX = max << N;
 
 		// 2. calculate
 		dfs(0);
@@ -40,7 +40,7 @@ public class Easy2048 {
 			return;
 		}
 		// 1) copy (caching)
-		long[][] map_cache = new long[N+1][N+1];
+		int[][] map_cache = new int[N][N];
 		for(int i=0; i<N; i++) {
 			for(int j=0; j<N; j++) {
 				map_cache[i][j] = map[i][j];
@@ -64,7 +64,7 @@ public class Easy2048 {
 		
 	}
 	
-	static void move(int dir, long[][] map) {
+	static void move(int dir, int[][] map) {
 		int y=0, x=0;
 		if(dir==1) y = N-1;
 		else if(dir==3) x = N-1;
@@ -88,7 +88,7 @@ public class Easy2048 {
 		}
 	}
 	
-	static void push(int dir, long[][] map) {
+	static void push(int dir, int[][] map) {
 		int cnt = 0;
 		int y=0, x=0;
 		if(dir==1) y = N-1;
