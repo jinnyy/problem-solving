@@ -2,7 +2,7 @@
  * [백준] 터렛
  * https://www.acmicpc.net/problem/1002
  */
-package etc;
+package math;
 import java.util.Scanner;
 
 
