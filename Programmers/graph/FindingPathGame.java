@@ -46,22 +46,8 @@ class FindingPathGame {
 	    if(cur.right != null) postorder(cur.right);
     	path[idx++] = cur.name;
     }
-    
-    
-    static int findLoc(Node target, Node[] tree) {
-    	int cur = 1;
-    	while(tree[cur] != null) {
-    		// target.x가 더 작으면 왼쪽 크면 오른쪽
-    		if(target.x < tree[cur].x) {
-    			cur = 2 * cur;
-    		}
-    		else {
-    			cur = 2 * cur + 1;
-    		}
-    	}
-    	return cur;
-    }
 }
+
 
 class Tree {
 	Node root;
@@ -102,10 +88,5 @@ class Node implements Comparable<Node> {
 	public int compareTo(Node n) {
 		if(this.y==n.y) return this.x - n.x;
 		return n.y - this.y;
-	}
-	
-	public String toString() {
-		return String.valueOf(name);
-//		return String.format("(%d %d)", y, x);
 	}
 }
