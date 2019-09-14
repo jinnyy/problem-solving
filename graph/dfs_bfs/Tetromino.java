@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 
-public class Tetronomio {
+public class Tetromino {
 	static final int[] dy = {-1, 1, 0, 0};
 	static final int[] dx = {0, 0, -1, 1};
 	
@@ -42,8 +42,13 @@ public class Tetronomio {
 		System.out.print(max);
 	}
 	
+	// dfs
 	static void go(int cy, int cx, int depth, int score, boolean[][] visited, int dir, boolean sameDir) {
 		score += map[cy][cx];
+		/*
+		 *  o
+		 * ooo 모양 블록을 처리하기 위한 코드
+		 */
 		if(depth == GOAL-1 && sameDir) {
 			int local = 0;
 			// 세로
@@ -65,11 +70,13 @@ public class Tetronomio {
 			if(local>0 && max < score + local)
 				max = score + local;
 		}
+		// base case
 		if(depth == GOAL) {
 			if(max < score) max = score;
 			return;
 		}
-    
+		
+		// go to next blocks
 		visited[cy][cx] = true;
 		for(int i=0; i<4; i++) {
 			boolean sameDirNext = i==dir || dir<0 ? true : false;
