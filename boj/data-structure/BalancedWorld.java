@@ -1,15 +1,14 @@
 /*
  * [백준][4949] 균형잡힌 세상
- * 18044 KB	136 ms (java 7등)
+ * 18044 KB	136 ms (19-09-18 기준 java 7등)
  */
-package dataStructure;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
 
-public class BalancedWorld {
+public class Main {
 	static final String YES="yes", NO="no";
 
 	public static void main(String[] args) throws Exception {
