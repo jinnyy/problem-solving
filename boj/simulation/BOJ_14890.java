@@ -1,5 +1,5 @@
 /*
- * [백준][147890] 경사로
+ * [백준][14890] 경사로
  * 14116 KB	92 ms
  */
 import java.io.BufferedReader;
