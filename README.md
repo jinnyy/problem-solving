@@ -13,9 +13,7 @@ algorithm solutions implemented in java and python language (mainly in java)
   Dynamic Programming</a>
   
 * `etc`
-  - math
-  - data structure
-  - greedy algorithm
+
 
 ### Samsung SW Expert Academy
 * `swea`: <a href="https://www.swexpertacademy.com/main/userpage/code/userProblemBoxDetail.do?probBoxId=AV5Po0AqAPwDFAUq&leftPage=1&curPage=userpage&userId=SWEAC">
