@@ -1,7 +1,6 @@
 /*
  * [백준][1774] 우주신과의 교감
  * 37204 KB	208 ms
- * (cf. 19-10-09 기준 java 2위)
  */
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
