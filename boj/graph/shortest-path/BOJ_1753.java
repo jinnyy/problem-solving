@@ -4,7 +4,6 @@
  *
  * Dijkstra's shortest path algorithm
  */
-package shortest_path;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.InputStreamReader;
@@ -14,7 +13,7 @@ import java.util.LinkedList;
 import java.util.PriorityQueue;
 
 
-public class ShortestPath {
+public class Main {
 	static final int INF = 3000001;
 
 	public static void main(String[] args) throws Exception {
