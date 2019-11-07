@@ -1,5 +1,5 @@
 /*
- * [프로그래머스] 최고의 집합
+ * [프로그래머스][Level3] 최고의 집합
  * https://programmers.co.kr/learn/courses/30/lessons/12938
  */
  
