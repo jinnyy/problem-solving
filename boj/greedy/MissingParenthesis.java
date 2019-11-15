@@ -2,11 +2,10 @@
  * [백준] 잃어버린 괄호
  * https://www.acmicpc.net/problem/1541
  */
-package greedy;
 import java.util.Scanner;
 
 
-public class MissingParenthesis {
+public class Main {
 
 	public static void main(String[] args) {
 		String expr;
