@@ -2,7 +2,6 @@
  * [백준][3036] 링
  * 13120 KB	80 ms
  */
-package etc;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.InputStreamReader;
@@ -10,7 +9,7 @@ import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
 
-public class Ring {
+public class Main {
 
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
