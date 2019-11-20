@@ -2,13 +2,12 @@
  * [백준][13458] 시험 감독
  * 123936 KB	440 ms
  */
-package math;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 
-public class ExamSupervision {
+public class Main {
 
 	public static void main(String[] args) throws Exception {
 		// read
