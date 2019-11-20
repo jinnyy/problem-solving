@@ -2,11 +2,10 @@
  * [백준][11051] 이항 계수 2
  * 18352 KB	116 ms
  */
-package math;
 import java.util.Scanner;
 
 
-public class BinomialCoefficient2 {
+public class Main {
 	static final int MOD = 10007;
 
 	public static void main(String[] args) {
