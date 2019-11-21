@@ -1,4 +1,3 @@
-package dp;
 /*
  * [백준] 오르막 수
  * https://www.acmicpc.net/problem/11057
@@ -6,7 +5,7 @@ package dp;
 import java.util.Scanner;
 
 
-public class AscendingNumber {
+public class Main {
 	static final int MOD = 10007;
 
 	public static void main(String[] args) {
