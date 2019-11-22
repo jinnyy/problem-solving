@@ -2,11 +2,10 @@
  * [백준] 평범한 배낭
  * https://www.acmicpc.net/problem/12865
  */
-package dp;
 import java.util.Scanner;
 
 
-public class Backpack {
+public class Main {
 
 	public static void main(String[] args) {
 		int N, K, stuffs[][], dp[][];
