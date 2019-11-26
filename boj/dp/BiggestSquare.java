@@ -1,4 +1,3 @@
-package dp;
 /*
  * [백준] 가장 큰 정사각형
  * https://www.acmicpc.net/problem/1915
@@ -6,7 +5,7 @@ package dp;
 import java.util.Scanner;
 
 
-public class BiggestSquare {
+public class Main {
 
 	public static void main(String[] args) {
 		int n, m, dp[][], max=0;
