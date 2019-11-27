@@ -1,4 +1,3 @@
-package dp;
 /*
  * [백준] 이항 계수 2
  * https://www.acmicpc.net/problem/11051
@@ -6,7 +5,7 @@ package dp;
 import java.util.Scanner;
 
 
-public class BinomialCoefficient2 {
+public class Main {
 	static final int MOD = 10007;
 
 	public static void main(String[] args) {
