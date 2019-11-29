@@ -1,4 +1,3 @@
-package dp;
 /*
  * [백준] 상자넣기
  * https://www.acmicpc.net/problem/1965
@@ -7,7 +6,7 @@ import java.util.Scanner;
 
 
 // cf. '가장 긴 증가하는 부분 수열'과 같은 원리로 풀 수 있다.
-public class Box {
+public class Main {
 
 	public static void main(String[] args) {
 		int n, box[], dp[], max;
