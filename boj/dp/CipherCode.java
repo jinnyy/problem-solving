@@ -2,11 +2,10 @@
  * [백준] 암호 코드
  * https://www.acmicpc.net/problem/2011
  */
-package dp;
 import java.util.Scanner;
 
 
-public class CipherCode {
+public class Main {
 	static final int MOD = 1000000;
 
 	public static void main(String[] args) {
