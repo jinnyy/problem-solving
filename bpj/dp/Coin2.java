@@ -1,4 +1,3 @@
-package dp;
 /*
  * [백준] 동전 2
  * https://www.acmicpc.net/problem/2294
@@ -6,7 +5,7 @@ package dp;
 import java.util.Scanner;
 
 
-public class Coin2 {
+public class Main {
 	public static void main(String[] args) {
 		int n, k, coins[], dp[];
 		Scanner sc = new Scanner(System.in);
