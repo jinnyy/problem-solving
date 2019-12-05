@@ -2,11 +2,10 @@
  * [백준] 파일 합치기
  * https://www.acmicpc.net/problem/11066
  */
-package dp;
 import java.util.Scanner;
 
 
-public class ConcatFiles {
+public class Main {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
