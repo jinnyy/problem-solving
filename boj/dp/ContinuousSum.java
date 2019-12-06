@@ -1,4 +1,3 @@
-package dp;
 /*
  * [백준] 연속합
  * https://www.acmicpc.net/problem/1912
@@ -7,7 +6,7 @@ import java.util.Scanner;
 
 
 
-public class ContinuousSum {
+public class Main {
 	static int N, nums[], Dp[];
 	
 	public static void main(String[] args) {
