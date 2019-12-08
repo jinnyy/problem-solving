@@ -2,11 +2,10 @@
  * [백준] 전깃줄
  * https://www.acmicpc.net/problem/2565
  */
-package dp;
 import java.util.Scanner;
 
 
-public class ElectricWire {
+public class Main {
 
 	public static void main(String[] args) {
 		int N, wire[], maxWire=0, dp[][];
