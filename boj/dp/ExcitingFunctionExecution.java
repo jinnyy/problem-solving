@@ -2,10 +2,9 @@
  * [백준] 신나는 함수 실행
  * https://www.acmicpc.net/problem/9184
  */
-package dp;
 import java.util.Scanner;
 
-public class ExcitingFunctionExecution {
+public class Main {
 	static int[][][] dp;
 
 	public static void main(String[] args) {
