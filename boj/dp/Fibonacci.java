@@ -1,4 +1,3 @@
-package dp;
 /*
  * [백준] 피보나치 함수
  * https://www.acmicpc.net/problem/1003
@@ -6,7 +5,7 @@ package dp;
 import java.util.Scanner;
 
 
-public class Fibonacci {
+public class Main {
 
 	public static void main(String[] args) {
 		int T, N, dp[][];
