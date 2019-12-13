@@ -1,4 +1,3 @@
-package dp;
 /*
  * 붕어빵 판매하기
  * https://www.acmicpc.net/problem/11052
@@ -7,7 +6,7 @@ package dp;
 import java.util.Scanner;
 
 
-public class FishBun {
+public class Main {
 	public static int[] price;
 
 	public static void main(String[] args) {
