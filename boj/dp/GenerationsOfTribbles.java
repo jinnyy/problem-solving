@@ -1,8 +1,8 @@
-import java.util.Scanner;
 /*
  * [백준] Generations of Tribbles
  * https://www.acmicpc.net/problem/9507
  */
+import java.util.Scanner;
 
 
 public class Main {
