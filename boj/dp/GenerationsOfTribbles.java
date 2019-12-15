@@ -1,4 +1,3 @@
-package dp;
 import java.util.Scanner;
 /*
  * [백준] Generations of Tribbles
@@ -6,7 +5,7 @@ import java.util.Scanner;
  */
 
 
-public class GenerationsOfTribbles {
+public class Main {
 
 	public static void main(String[] args) {
 		int t, n[];
