@@ -2,11 +2,10 @@
  * [백준] 기타리스트
  * https://www.acmicpc.net/problem/1495
  */
-package dp;
 import java.util.Scanner;
 
 
-public class Guitarist {
+public class Main {
 	public static void main(String[] args) {
 		int N, S, M, V[];
 		boolean dp[][];
