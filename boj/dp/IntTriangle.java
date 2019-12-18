@@ -1,4 +1,3 @@
-package dp;
 /*
  * [백준] 정수 삼각형
  * https://www.acmicpc.net/problem/1932
@@ -6,7 +5,7 @@ package dp;
 import java.util.Scanner;
 
 
-public class IntTriangle {
+public class Main {
 	static int N, tri[][], Dp[][];
 
 	public static void main(String[] args) {
