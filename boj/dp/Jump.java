@@ -1,4 +1,3 @@
-package dp;
 /*
  * [백준] 점프
  * https://www.acmicpc.net/problem/1890
@@ -6,7 +5,7 @@ package dp;
 import java.util.Scanner;
 
 
-public class Jump {
+public class Main {
 
 	public static void main(String[] args) {
 		int N, map[][];
