@@ -2,11 +2,10 @@
  * [백준] 점프점프
  * 11060
  */
-package dp;
 import java.util.Scanner;
 
 
-public class JumpJump {
+public class Main {
 
 	public static void main(String[] args) {
 		int N, A[], dp[];
