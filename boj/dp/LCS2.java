@@ -1,4 +1,3 @@
-package dp;
 /*
  * [백준] LCS2
  * https://www.acmicpc.net/problem/9252
@@ -6,7 +5,7 @@ package dp;
 import java.util.Scanner;
 
 
-public class LCS2 {
+public class Main {
 	public static void main(String[] args) {
 		int N, M;
 		String str[], cache[][];
