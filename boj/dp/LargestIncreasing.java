@@ -1,4 +1,3 @@
-package dp;
 /*
  * [백준] 가장 큰 증가 부분 수열
  * https://www.acmicpc.net/problem/11055
@@ -6,7 +5,7 @@ package dp;
 import java.util.Scanner;
 
 
-public class LongestIncreasing {
+public class Main {
 	static int N, Arr[], Dp[];
 	
 	public static void main(String[] args) {
