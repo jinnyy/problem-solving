@@ -1,9 +1,11 @@
-package dp;
+/*
+ * [백준] 줄세우기
+ */
 import java.util.Scanner;
 
 
 
-public class LineUp {
+public class Main {
 	public static void main(String[] args) {
 		int N, num[], dp[], Max;
 		Scanner sc = new Scanner(System.in);
