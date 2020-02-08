@@ -1,4 +1,3 @@
-package dp;
 /*
  * [백준] 가장 긴 바이토닉 부분 수열
  * https://www.acmicpc.net/problem/11054
@@ -6,7 +5,7 @@ package dp;
 import java.util.Scanner;
 
 
-public class LongestBitonic {
+public class Main {
 
 	public static void main(String[] args) {
 		int N, A[], inc[], dec[], max;
