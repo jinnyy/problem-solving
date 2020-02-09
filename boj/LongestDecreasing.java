@@ -1,4 +1,3 @@
-package dp;
 /*
  * [백준] 가장 긴 감소하는 부분 수열
  * 
@@ -6,7 +5,7 @@ package dp;
 import java.util.Scanner;
 
 
-public class LongestDecreasing {
+public class Main {
 
 	public static void main(String[] args) {
 		int N, A[], dp[], max;
