@@ -1,11 +1,10 @@
-package dp;
 /*
- * 1로 만들기
+ * [백준] 1로 만들기
  * https://www.acmicpc.net/problem/1463
  */
 import java.util.Scanner;
 
-public class MakeOne {
+public class Main {
 	public static int[] dp;
 
 	public static void main(String[] args) {
