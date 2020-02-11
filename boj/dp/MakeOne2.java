@@ -1,7 +1,6 @@
 /*
- * [백준][12852번] 1로 만들기 2
+ * [백준][12852] 1로 만들기 2
  */
-package dp;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.InputStreamReader;
@@ -9,7 +8,7 @@ import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
 
-public class MakeOne2 {
+public class Main {
 	static int N;
 	static StringBuilder sb;
 	static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
