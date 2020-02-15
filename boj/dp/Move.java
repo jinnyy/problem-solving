@@ -1,4 +1,3 @@
-package dp;
 /*
  * [백준] 이동하기
  * https://www.acmicpc.net/problem/11048
@@ -6,7 +5,7 @@ package dp;
 import java.util.Scanner;
 
 
-public class Move {
+public class Main {
 	static final int[] dx = {-1, 0, -1};
 	static final int[] dy = {0, -1, -1};
 
