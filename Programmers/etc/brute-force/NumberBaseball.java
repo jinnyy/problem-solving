@@ -1,5 +1,5 @@
 /*
- * [프로그래머스][LEV2] 숫자 야구
+ * [프로그래머스][Level2] 숫자 야구
  * https://programmers.co.kr/learn/courses/30/lessons/42841?language=java
  */
 
