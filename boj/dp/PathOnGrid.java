@@ -1,4 +1,3 @@
-package dp;
 /*
  * [백준] 격자상의 경로
  * https://www.acmicpc.net/problem/10164
@@ -7,7 +6,7 @@ import java.util.Scanner;
 
 
 
-public class PathOnGrid {
+public class Main {
 
 	public static void main(String[] args) {
 		int N, M, K, dp[][];
