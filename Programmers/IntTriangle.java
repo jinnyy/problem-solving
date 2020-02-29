@@ -2,7 +2,6 @@
  * [프로그래머스][DP] 정수 삼각형
  * https://programmers.co.kr/learn/courses/30/lessons/43105
  */
-package programmers;
 
 
 public class IntTriangle {
